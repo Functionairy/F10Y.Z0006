@@ -1,20 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup Label="Main">
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <NoWarn>CA1860;CS1573;CS1587;CS1591;IDE0130</NoWarn>
+    <TargetFramework>net6.0</TargetFramework>
+    <NoWarn>CS1573;CS1587;CS1591;IDE0130</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <PropertyGroup Label="Package">
     <Version>1.0.0</Version>
     <Authors>DCoats</Authors>
     <Copyright>Copyright (c) Functionairy 2025</Copyright>
-    <Description>Construction console project for the F10Y.Z0006 library.</Description>
+    <Description>Functionairy-applicable instance set descriptor facet descriptor values library.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <RepositoryUrl>https://github.com/Functionairy/F10Y.Z0006.git</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\F10Y.Z0006\F10Y.Z0006.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.L0026\source\F10Y.L0026.T001\F10Y.L0026.T001.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.Z0009\source\F10Y.Z0009\F10Y.Z0009.csproj" />
   </ItemGroup>
 </Project>
