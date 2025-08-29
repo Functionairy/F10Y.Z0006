@@ -10,6 +10,6 @@ namespace F10Y.Z0006.Z002
     {
         public OrganizationSearchDescriptor_Name Find_F10Y => Instances.OrganizationSearchDescriptorOperator.From(
             Instances.OrganizationNames.F10Y,
-            Instances.EqualityOperationDescriptors.For_String_Simple);
+            Instances.EqualityOperationDescriptors.Simple);
     }
 }
