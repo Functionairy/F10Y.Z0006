@@ -6,7 +6,7 @@ using F10Y.T0003;
 namespace F10Y.Z0006
 {
     [ValuesMarker]
-    public partial interface IDomainSets
+    public partial interface IDomainNameSets
     {
 
     }

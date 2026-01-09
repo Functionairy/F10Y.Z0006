@@ -12,6 +12,7 @@ namespace F10Y.Z0006
     /// Note: should be in a Functionairy library comparable to F10Y.Z0008.
     /// </remarks>
     [ValuesMarker]
+    [DomainDescriptor(Z0008.IDomainNames.Applicability_Names_Constant)]
     public partial interface IApplicabilities
     {
         /// <summary>

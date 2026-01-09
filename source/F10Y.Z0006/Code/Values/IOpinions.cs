@@ -6,6 +6,7 @@ using F10Y.T0003;
 namespace F10Y.Z0006
 {
     [ValuesMarker]
+    [DomainDescriptor(Z0008.IDomainNames.Opinion_Names_Constant)]
     public partial interface IOpinions
     {
         /// <summary>
