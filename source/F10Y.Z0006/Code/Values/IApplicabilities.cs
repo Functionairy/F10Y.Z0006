@@ -18,6 +18,9 @@ namespace F10Y.Z0006
         /// <summary>
         /// <para><value>Organizational-Functionairy</value></para>
         /// </summary>
-        public string Organizational_Functionairy => "Organizational-Functionairy";
+        const string Organizational_Functionairy_Constant = "Organizational-Functionairy";
+
+        /// <inheritdoc cref="Organizational_Functionairy_Constant"/>
+        string Organizational_Functionairy => Organizational_Functionairy_Constant;
     }
 }
